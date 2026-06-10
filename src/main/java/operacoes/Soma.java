@@ -1,8 +1,3 @@
-package operacoes;
-
-import java.util.Scanner;
-
-
 
 public class Soma {
     public static void main(String[] args) {
@@ -12,5 +7,8 @@ public class Soma {
         System.out.println("digite o segundo valor");
         int y = scanner.nextInt();
         System.out.println("o resultado é:" + (x + y));
+        EntradaNumeros entradaNumeros = new EntradaNumeros();
+        entradaNumeros.pedir();
+        System.out.println("o resultado é:" + (entradaNumeros.x + entradaNumeros.y));
     }
 }

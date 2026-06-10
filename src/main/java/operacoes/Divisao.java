@@ -1,8 +1,4 @@
-package operacoes;
-
-import java.util.Scanner;
-
-public class Multiplicacao {
+public class Divisao {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("digite o primeiro valor");
@@ -10,5 +6,8 @@ public class Multiplicacao {
         System.out.println("digite o segundo valor");
         int y = scanner.nextInt();
         System.out.println("o resultado é:" + (x * y));
+        EntradaNumeros entradaNumeros = new EntradaNumeros();
+        entradaNumeros.pedir();
+        System.out.println("o resultado é:" + (entradaNumeros.x / entradaNumeros.y));
     }
 }

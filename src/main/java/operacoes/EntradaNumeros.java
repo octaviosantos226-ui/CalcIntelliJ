@@ -1,5 +1,4 @@
-
-        package operacoes;
+package operacoes;
 
 import java.util.Scanner;
 
